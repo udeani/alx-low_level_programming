@@ -11,9 +11,9 @@
 /**
  * main - Prints the last digit of a number n
  *
- * Return: 0
+ * Return:  
+ *
  */
- 
 int main(void)
 {
 	int n;
