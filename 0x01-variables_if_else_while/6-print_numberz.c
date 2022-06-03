@@ -13,9 +13,9 @@ int main(void)
 	int n;
 
 	for (n = 0; n < 10; n++)
-		printf((n % 10) + '0');
+		putchar((n % 10) + '0');
 
-	printf("\n");
+	putchar("\n");
 
 	return (0);
 }
