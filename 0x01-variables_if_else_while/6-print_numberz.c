@@ -2,7 +2,9 @@
  * File:6-print_numberz.c
  * Auth: github.com/udeani
  */
+
 #include <stdio.h>
+
 /**
  * main - code to print numbers in base 10
  * Return: 0
@@ -10,12 +12,11 @@
 
 int main(void)
 {
-	int n;
+	int num;
 
-	for (n = 0; n < 10; n++)
-		putchar((n % 10) + '0');
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
 
-	putchar("\n");
+	putchar('\n');
 
-	return (0);
-}
+	return (0);}
