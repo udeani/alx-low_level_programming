@@ -7,14 +7,14 @@
 
 /**
  * print_last_digit - prints the last digit of any number
- * @last: input from test file
+ * @n: input from test file
  * Return: always last digit of last
  */
 
-int print_last_digit(int last)
+int print_last_digit(int n)
 {
-	if (last < 0)
-		last = last * -1;
-	_putchar((last % 10) + '0');
-	return (last % 10);
+	if (n < 0)
+		n = n * -1;
+	_putchar((n % 10) + '0');
+	return (n % 10);
 }
