@@ -3,7 +3,7 @@
  * File: 1-alphabet.c
  * Auth: Udeani henry
  */
-/** 
+/**
  * print_alphabet - prints alphabet in lower case follwed by a new line
  * Return: 0
  */
