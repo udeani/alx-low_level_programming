@@ -3,7 +3,7 @@
  * Auth: udeani
  */
 
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Script to print _putchar followed by a new line
@@ -12,7 +12,7 @@
 
 int main(void)
 {
-	printf('-putchar');
-	printf("\n");
+	putchar('-putchar');
+	putchar("\n");
 	return (0);
 }
