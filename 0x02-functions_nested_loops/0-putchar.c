@@ -9,10 +9,9 @@
  * main - Script to print _putchar followed by a new line
  * Return: 0
  */
-
 int main(void)
 {
-	putchar('-putchar');
-	putchar("\n");
+	_putchar("_putchar");
+	_putchar("\n");
 	return (0);
 }
