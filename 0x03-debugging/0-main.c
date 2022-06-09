@@ -1,3 +1,8 @@
+/*
+ * File: 0-main.c
+ * Auth: udeani henry
+ */
+
 #include "main.h"
 
 /**
