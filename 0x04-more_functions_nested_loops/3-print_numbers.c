@@ -7,7 +7,7 @@
 
 /**
  * print_numbers - Prints numbers from 0-9.
- * Return: always 0.
+ * Return: nothing
  */
 void print_numbers(void)
 {
@@ -17,5 +17,4 @@ void print_numbers(void)
 		_putchar((num % 10) + '0');
 
 	_putchar('\n');
-	return (0);
 }
