@@ -11,25 +11,33 @@
  * @str: the string to capitalize
  * Return: str
  */
-
 char *cap_string(char *str)
 {
-	int n = 0;
+	int index = 0;
 
-	char *temp = " \t\n,;.!?\"(){}";
-
-	while (str[n])
+	while (str[index])
 	{
-		while (!(str[n] >= 'a' && str[n] <= 'z'))
-		{
-			for (j= 0; temp[j] != NULL; j++)
-			{
-				if (temp[j] == str[n])
-					str[n + 1] -= 32;
-			}
-			n++;
-		}
-		n++;
+		while (!(str[index] >= 'a' && str[index] <= 'z'))
+			index++;
+
+		if (str[index - 1] == ' ' ||
+		    str[index - 1] == '\t' ||
+		    str[index - 1] == '\n' ||
+		    str[index - 1] == ',' ||
+		    str[index - 1] == ';' ||
+		    str[index - 1] == '.' ||
+		    str[index - 1] == '!' ||
+		    str[index - 1] == '?' ||
+		    str[index - 1] == '"' ||
+		    str[index - 1] == '(' ||
+		    str[index - 1] == ')' ||
+		    str[index - 1] == '{' ||
+		    str[index - 1] == '}' ||
+		    index == 0)
+			str[index] -= 32;
+
+		index++;
 	}
+
 	return (str);
 }
