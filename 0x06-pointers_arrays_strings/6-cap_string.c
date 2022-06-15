@@ -22,7 +22,7 @@ char *cap_string(char *str)
 	{
 		while (!(str[n] >= 'a' && str[n] <= 'z'))
 		{
-			for (str[n] >= temp[0] && str[n] <= temp[13])
+			for (str[n] >= temp[0] && str[n] <= temp[12])
 				str[n + 1] -= 32;
 			n++;
 		}
