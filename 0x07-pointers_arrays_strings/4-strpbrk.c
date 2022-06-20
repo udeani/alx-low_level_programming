@@ -7,7 +7,7 @@
 
 /**
  * _strpbrk - function to search for a set of string
- * @a: the pointer to the string
+ * @s: the pointer to the string
  * @accept: the string
  * Return: a pointer s.
  */
