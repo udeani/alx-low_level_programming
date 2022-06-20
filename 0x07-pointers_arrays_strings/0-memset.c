@@ -11,6 +11,7 @@
  * @s: the pointer to the memory are to fill
  * @b: the character to fill memonry with.
  * @n: the number of bytes to fill.
+ * Return: s.
  */
 
 char *_memset(char *s, char b, unsigned int n)
