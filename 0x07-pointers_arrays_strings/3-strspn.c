@@ -8,7 +8,7 @@
 /**
  * _strspn - function to get the lenght fo a prefix substring
  * @s: the segment to return
- * @accpet: bytes to return
+ * @accept: bytes to return
  * Return: the number of bytes in segment
  */
 
