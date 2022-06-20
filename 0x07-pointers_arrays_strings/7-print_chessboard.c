@@ -4,10 +4,10 @@
  */
 
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_chessboard - prints the chessboard
- *@a: the array printed
+ * @a: the array printed
  * Return: 0.
  */
 
