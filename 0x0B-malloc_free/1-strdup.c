@@ -1,6 +1,7 @@
 /*
  * File: 1-strdup.c
  * Auth: udeani henry
+ */
 
 #include "main.h"
 #include <stdio.h>
