@@ -15,7 +15,7 @@
  *     else a pointer to the concatonated value.
  */
 
-char *string_nconcat(cahr *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	if (s1 == NULL)
 		s1 = "";
