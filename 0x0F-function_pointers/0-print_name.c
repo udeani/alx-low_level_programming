@@ -1,5 +1,5 @@
 /*
- * File: 0-function_pointers.c
+ * File: 0-print_name.c
  * Auth: Udeani henry
  */
 
