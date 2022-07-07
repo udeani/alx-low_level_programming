@@ -1,5 +1,5 @@
 /*
- * File: 2-print_string.c
+ * File: 2-print_strings.c
  * Auth: Udeani henry
  */
 
