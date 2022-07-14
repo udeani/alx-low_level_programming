@@ -4,7 +4,7 @@
  */
 
 #include "lists.h"
-
+#include <stdio.h>
 /**
  * print_list - function to print the list items and there size.
  * @h: the pointer to the listed list
