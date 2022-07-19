@@ -7,7 +7,6 @@
  * Desc: Header file with prototypes for more linked list assignment
  */
 
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
